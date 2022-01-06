@@ -20,6 +20,10 @@ data.create(
   }
 );
 
+data.read("test", "newFile", (err, data) => {
+  console.log(err, data);
+});
+
 // Cerate server
 app.createServer = () => {
   const server = http.createServer(app.handleReqRes);
