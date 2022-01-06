@@ -1,0 +1,16 @@
+{
+  "name": "project-sumit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=staging&& nodemon index",
+    "production": "SET NODE_ENV=production&& nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
